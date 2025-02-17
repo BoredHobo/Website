@@ -1,0 +1,93 @@
+body {
+  background-image:url("images/stars.gif");
+  color:Cornsilk;
+  font-family:DejaVu Sans Mono, monospace;
+}
+hr{
+  display:block;
+  border:0;
+  height:20px;
+  background:url('images/logos/flowers.png');
+}
+.text {
+  background:DimGrey;
+  width:75%;
+  padding-left:5px;
+  padding-right:5px;
+  margin:0 auto;
+}
+a:link {
+  color:Aqua;
+}
+a:visited {
+  color:aqua;
+}
+a:hover {
+  color:#f1f1f1;
+}
+footer {
+  text-align: center;
+  padding:3px;
+}
+.blognav {
+  height:95%;
+  width:200px;
+  position: fixed;
+  border:1px dashed Pink;
+  padding-left:5px;
+  border-radius: 25px;
+}
+.blog {
+    margin-left: 210px;
+    padding: 0px 10px;
+}
+#foot li {
+  display:inline;
+}
+@media (max-width: 768px) {
+  .blognav{
+    display: none;
+  }
+  .blog{
+    margin-left:0;
+  }
+}
+.logo{
+  max-width: 100%;
+  height: auto;
+}
+table, th, td {
+  border: 1px solid Black;
+  border-collapse: collapse;
+  word-break: normal;
+  text-align: center;
+}
+table {
+  display:block;
+  width:100%;
+  overflow-x: auto;
+  word-break: normal;
+}
+details {
+  border:1px solid Black;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  cursor: pointer;
+  margin: 5px;
+  background: darkgrey;
+  color:Black;
+  display:inline-block;
+}
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid Black;
+  margin-bottom: 0.5em;
+}
