@@ -99,10 +99,23 @@ details[open] summary {
   border-bottom: 1px solid Black;
   margin-bottom: 0.5em;
 }
+
 #spoiler {
   background-color:black;
   color:black
 }
+
 #spoiler:hover {
   color:white;
+}
+
+.comment-box{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
 }
