@@ -24,6 +24,11 @@ a:link {
   text-decoration: none;
 }
 
+li {
+  list-style-image: url("../images/logos/flowers.png");
+  list-style-position: inside;
+}
+
 a:visited {
   color:aqua;
 }
