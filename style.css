@@ -24,10 +24,18 @@ a:link {
   text-decoration: none;
 }
 
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "♥︎";
+  suffix: " ";
+}
+
+.repeating-counter-rule {
+  list-style-type: repeating-emoji;
+}
+
 li {
-  list-style-image: url("../images/logos/flowers.png");
   list-style-position: inside;
-  margin: 0;
 }
 
 a:visited {
