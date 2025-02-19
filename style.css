@@ -129,3 +129,16 @@ details[open] summary {
   align-items: center;
   text-align: center;
 }
+
+.image-set{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+
+}
+
+.comic-image{
+  width: 170px;
+  height: 261px;
+}
