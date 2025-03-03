@@ -161,3 +161,25 @@ details[open] summary {
   border-radius: 8px;
   border: 1px solid pink;
 }
+
+.news-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 1px;
+}
+
+.news-form, input{
+  border: 1px;
+  border-radius: 6px;
+  height: 30px;
+  margin-bottom: 3px;
+}
+
+.news-form, button{
+  background-color: pink;
+  width: 100%;
+  height: 30px;
+  border: 1px;
+  border-radius: 6px;
+}
