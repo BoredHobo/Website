@@ -140,12 +140,7 @@ details[open] summary {
   color:white;
 }
 
-.newsletter{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+
 
 .image-set{
   display: flex;
@@ -166,20 +161,28 @@ details[open] summary {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 1px;
+  width: 356px;
 }
 
-.news-form, input{
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+input{
   border: 1px;
   border-radius: 6px;
   height: 30px;
   margin-bottom: 3px;
 }
 
-.news-form, button{
-  background-color: pink;
+button {
   width: 100%;
   height: 30px;
   border: 1px;
   border-radius: 6px;
+  background-color: pink;
+  cursor: pointer;
 }
