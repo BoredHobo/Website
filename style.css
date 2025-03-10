@@ -205,3 +205,8 @@ button {
   justify-content: space-evenly;
   align-content: space-evenly;  
 }
+
+.buttons img {
+  border: outset pink;
+  margin-bottom: 3px;
+}
