@@ -78,6 +78,10 @@ footer {
   .blog{
     margin-left:0;
   }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .logo{
@@ -185,4 +189,21 @@ button {
   border-radius: 6px;
   background-color: pink;
   cursor: pointer;
+}
+
+.about {
+  display: flex;
+}
+
+.about-text {
+  width: 150px;
+}
+
+.about-buttons {
+  width: auto;
+  text-align: center;
+}
+
+.about, ul {
+  margin: 0;
 }

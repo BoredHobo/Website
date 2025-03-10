@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobo's Stash</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
     <a id="top"></a>
@@ -12,24 +12,63 @@
       <div style="text-align:center;padding:20px;">
         <img src="images/blinkies/hobostash.gif" class="logo" alt="hobo's stash blinkie">
       </div>
-      <p style=text-align:center;>Movie talk, TV talk, occasional gaming talk, comic talk, Plex explanation. I'm still learning HTML and CSS so please don't judge the ugliness.</p>
+      <p style="text-align:center;">Movie talk, TV talk, occasional gaming talk, comic talk, Plex explanation. I'm still learning HTML and CSS so please don't judge the ugliness.</p>
       <hr>
       <h2>About me:</h2>
-      <ul>
-        <li>Florence</li>
-        <li>She/Her</li>
-        <li>Trans<img src="images/blinkies/trans.gif" alt="trans flag dot gif"></li>
-        <li>Lesbian<img src="images/blinkies/lesbian.gif" alt="lesbian flag dot gif"></li>
-      </ul>
+      <container class="about">
+        <section class="about-text">
+          <ul>
+            <li>Florence</li>
+            <li>She/Her</li>
+            <li>Trans</li>
+            <li>Lesbian</li>
+          </ul>
+        </section>
+        <section class="about-buttons">
+          <img src="https://88by31.neocities.org/pride/lesb.png">
+          <img src="https://88by31.neocities.org/pride/transgender.png">
+          <img src="https://88by31.neocities.org/pride/she.png">
+          <img src="https://88by31.neocities.org/pride/005button.gif">
+          <a href='https://blinkies.cafe' target='_blank'><img src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
+          <img src="https://88by31.neocities.org/awareness/antinazi.gif">
+          <img src="https://88by31.neocities.org/awareness/free_palestine.gif">
+          <img src="https://88by31.neocities.org/misc/alltits.png">
+          <img src="https://88by31.neocities.org/misc/dvd.gif">
+          <img src="https://88by31.neocities.org/music/miku.gif">
+          <img src="https://88by31.neocities.org/music/creep.png">
+          <img src="https://88by31.neocities.org/music/dknow.gif">
+          <img src="https://88by31.neocities.org/music/vk.gif">
+          <img src="https://88by31.neocities.org/web/dumbass.gif">
+          <img src="https://88by31.neocities.org/web/paws.png">
+          <img src="https://88by31.neocities.org/web/madewithneo.gif">
+          <img src="https://88by31.neocities.org/web/w3schools.gif">
+          <img src="https://88by31.neocities.org/web/vscbutton.gif">
+          <img src="https://88by31.neocities.org/web/html_learn_it_today.gif">
+          <img src="https://88by31.neocities.org/web/xp.gif">
+          <img src="https://88by31.neocities.org/web/chrome.gif">
+          <img src="https://88by31.neocities.org/web/009button.gif">
+          <img src="https://88by31.neocities.org/web/IMG_1816.gif">
+          <img src="https://88by31.neocities.org/web/cybergirls.gif">
+          <img src="https://88by31.neocities.org/web/ih8squarespace.png">
+          <a href="https://goblin-heart.net/" target="_blank"><img src="https://goblin-heart.net/assets/images/gg-button.gif"></a>
+        </section>
+      </container>
       <hr>
-      <h2>Recent Posts:</h2>
-      <ul>
-        <li><a href="./pages/blog#6">What I Read This Week (3/5/25)</a></li>
-        <li><a href="./pages/blog#5">What I Read This Week (2/26/25)</a></li>
-        <li><a href="./pages/blog#4">What I Read This Week (2/19/25)</a></li>
-        <li><a href="./pages/blog#3">What I Read This Week (2/12/25)</a></li>
-        <li><a href="./pages/blog#2">Spider-Man 2 is flawed but fun</a></li>
-      </ul>
+      <container class="recents">
+        <h2>Recent Posts:</h2>
+        <ul>
+          <li><a href="./pages/blog#6">What I Read This Week (3/5/25)</a></li>
+          <li><a href="./pages/blog#5">What I Read This Week (2/26/25)</a></li>
+          <li><a href="./pages/blog#4">What I Read This Week (2/19/25)</a></li>
+          <li><a href="./pages/blog#3">What I Read This Week (2/12/25)</a></li>
+          <li><a href="./pages/blog#2">Spider-Man 2 is flawed but fun</a></li>
+        </ul>
+      </container>
+      <hr>
+      <container class="song">
+        <h2>Song of the week:</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Km5bhOuAWctboSc7w6Lur?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </container>
       <hr>
       <h2 style=text-align:center;>My friends</h2>
       <p style=text-align:center;><a href="https://linktr.ee/sluggishcollectibles" target="_blank" rel="noopener noreferrer"><img src="https://ugc.production.linktr.ee/20dc680e-e395-481c-a879-663b7bfcc644_image.jpeg" height=150 width=150 alt="logo for Marky Seller"></a><br><img src="images/blinkies/markyad.gif" alt="click the logo for pokemon cards on sale!"></p>
@@ -38,21 +77,21 @@
         <a href="#top">↑ Back to Top</a>
         <nav>
           <p>Site Map<br>  
-          <ul id="foot">
-            <li><a href="../index">Home</a></li> |
-            <li><a href="./pages/plex">Plex</a></li> |
-            <li><a href="./pages/blog">Blog</a></li> |
-            <li><a href="#">Pink Paw Award</a></li>
-          </ul>
+            <ul id="foot">
+              <li><a href="../index">Home</a></li> |
+              <li><a href="./pages/plex">Plex</a></li> |
+              <li><a href="./pages/blog">Blog</a></li> |
+              <li><a href="#">Pink Paw Award</a></li>
+            </ul>
           <p>Socials</p>
-          <ul id="foot">
-            <li><a href="https://letterboxd.com/BoredHobo/" target="_blank" rel="noopener noreferrer">Letterboxd</a></li> |
-            <li><a href="https://x.com/HoboWaves" target="_blank" rel="noopener noreferrer">Twitter</a></li> |
-            <li><a href="https://bsky.app/profile/boredhobo.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a></li>
-          </ul>
+            <ul id="foot">
+              <li><a href="https://letterboxd.com/BoredHobo/" target="_blank" rel="noopener noreferrer">Letterboxd</a></li> |
+              <li><a href="https://x.com/HoboWaves" target="_blank" rel="noopener noreferrer">Twitter</a></li> |
+              <li><a href="https://bsky.app/profile/boredhobo.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a></li>
+            </ul>
         </nav>
-        <a href='https://blinkies.cafe' target='_blank'><img src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
       </footer>
     </div>
   </body>
 </html>
+      
