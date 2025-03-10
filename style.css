@@ -1,7 +1,12 @@
 body {
+  cursor: url("../images/cursor.png"), auto;
   background-image:url("images/stars.gif");
   color:Cornsilk;
   font-family: "DejaVu Sans Mono", monospace;
+}
+
+a {
+  cursor: url("../images/pointer.png"), auto;
 }
 
 hr{
