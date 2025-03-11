@@ -86,9 +86,12 @@ footer {
   .blog{
     margin-left:0;
   }
-  .about {
+  .infobox {
     display: flex;
     flex-direction: column;
+  }
+  .links {
+    border-style: none;
   }
 }
 
@@ -152,8 +155,6 @@ details[open] summary {
   color:white;
 }
 
-
-
 .image-set{
   display: flex;
   justify-content: center;
@@ -209,4 +210,17 @@ button {
 .buttons img {
   border: outset pink;
   margin-bottom: 3px;
+}
+
+.infobox {
+  display: flex;
+}
+
+.about {
+  width: 50%;
+}
+
+.links {
+  padding-left: 10px;
+  border-left: 2px solid pink
 }
