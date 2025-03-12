@@ -225,3 +225,8 @@ button {
   padding-left: 10px;
   border-left: 2px solid pink;
 }
+
+.repeating-counter-rule img {
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
