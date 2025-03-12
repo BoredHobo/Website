@@ -91,7 +91,8 @@ footer {
     flex-direction: column;
   }
   .links {
-    border-style: none;
+    border-left: 0px !important;
+    border-top: 2px solid pink;
   }
 }
 
@@ -222,5 +223,5 @@ button {
 
 .links {
   padding-left: 10px;
-  border-left: 2px solid pink
+  border-left: 2px solid pink;
 }
