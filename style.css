@@ -245,7 +245,7 @@ button {
 }
 
 .moods iframe {
-  height: 19px;
+  height: px;
 }
 
 .moods {
@@ -255,7 +255,4 @@ button {
 .site-button {
   padding-left: 10px;
   border-left: 2px solid pink;
-}
-
-.boredhobo {
 }
