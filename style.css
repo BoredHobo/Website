@@ -255,10 +255,6 @@ button {
   border-left: 2px solid pink;
 }
 
-.map {
-
-}
-
 .map-top {
   display: flex;
   justify-content: center;
