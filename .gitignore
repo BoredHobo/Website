@@ -21,7 +21,7 @@
 .ionide
 
 .git/*
-
+.gitignore
 Templates/*
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
