@@ -276,3 +276,7 @@ button {
   display: flex;
   justify-content: center;
 }
+
+article, header {
+  text-align: center;
+}
