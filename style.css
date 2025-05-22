@@ -139,10 +139,8 @@ details {
   max-width: fit-content;
 }
 
-.container-plex{
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.container-plex, table, td, th{
+  border-color: cornsilk;
 }
 
 summary {
